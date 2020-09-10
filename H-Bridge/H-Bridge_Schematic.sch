@@ -1,0 +1,516 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 4850 1200 0    50   ~ 0
+H-bridge Circuit
+$Comp
+L Device:R R?
+U 1 1 5F7EE1AB
+P 2150 2450
+F 0 "R?" H 2220 2496 50  0001 L CNN
+F 1 "10k" H 2220 2450 50  0000 L CNN
+F 2 "kustom_footprints:10k_0805" V 2080 2450 50  0001 C CNN
+F 3 "~" H 2150 2450 50  0001 C CNN
+	1    2150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1B1
+P 2450 2450
+F 0 "R?" H 2520 2496 50  0001 L CNN
+F 1 "10k" H 2520 2450 50  0000 L CNN
+F 2 "kustom_footprints:10k_0805" V 2380 2450 50  0001 C CNN
+F 3 "~" H 2450 2450 50  0001 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1B7
+P 2750 2450
+F 0 "R?" H 2820 2496 50  0001 L CNN
+F 1 "10k" H 2820 2450 50  0000 L CNN
+F 2 "kustom_footprints:10k_0805" V 2680 2450 50  0001 C CNN
+F 3 "~" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1BD
+P 3000 2450
+F 0 "R?" H 3070 2496 50  0001 L CNN
+F 1 "10k" H 3070 2450 50  0000 L CNN
+F 2 "kustom_footprints:10k_0805" V 2930 2450 50  0001 C CNN
+F 3 "~" H 3000 2450 50  0001 C CNN
+	1    3000 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1C3
+P 5400 2000
+F 0 "R?" H 5470 2046 50  0001 L CNN
+F 1 "1k" H 5470 2000 50  0000 L CNN
+F 2 "kustom_footprints:1k_0805" V 5330 2000 50  0001 C CNN
+F 3 "~" H 5400 2000 50  0001 C CNN
+	1    5400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1C9
+P 5950 2000
+F 0 "R?" H 6020 2046 50  0001 L CNN
+F 1 "1k" H 6020 2000 50  0000 L CNN
+F 2 "kustom_footprints:1k_0805" V 5880 2000 50  0001 C CNN
+F 3 "~" H 5950 2000 50  0001 C CNN
+	1    5950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1CF
+P 8050 2000
+F 0 "R?" H 8120 2046 50  0001 L CNN
+F 1 "1k" H 8120 2000 50  0000 L CNN
+F 2 "kustom_footprints:1k_0805" V 7980 2000 50  0001 C CNN
+F 3 "~" H 8050 2000 50  0001 C CNN
+	1    8050 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F7EE1D5
+P 8500 1950
+F 0 "R?" H 8570 1996 50  0001 L CNN
+F 1 "1k" H 8570 1950 50  0000 L CNN
+F 2 "kustom_footprints:1k_0805" V 8430 1950 50  0001 C CNN
+F 3 "~" H 8500 1950 50  0001 C CNN
+	1    8500 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F7EE1DB
+P 8350 1200
+F 0 "C?" H 8465 1246 50  0000 L CNN
+F 1 "100pf" H 8465 1155 50  0000 L CNN
+F 2 "kustom_footprints:100pf_0805" H 8388 1050 50  0001 C CNN
+F 3 "~" H 8350 1200 50  0001 C CNN
+	1    8350 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F7EE1E1
+P 4400 1400
+F 0 "C?" H 4515 1446 50  0000 L CNN
+F 1 "10nf" H 4515 1355 50  0000 L CNN
+F 2 "kustom_footprints:10nf_0805" H 4438 1250 50  0001 C CNN
+F 3 "~" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3450 1500 3450 1400
+Wire Wire Line
+	3450 1400 3250 1400
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE1E9
+P 8500 1200
+F 0 "#PWR?" H 8500 950 50  0001 C CNN
+F 1 "GND" V 8505 1072 50  0000 R CNN
+F 2 "" H 8500 1200 50  0001 C CNN
+F 3 "" H 8500 1200 50  0001 C CNN
+	1    8500 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE1EF
+P 2450 2600
+F 0 "#PWR?" H 2450 2350 50  0001 C CNN
+F 1 "GND" V 2455 2472 50  0000 R CNN
+F 2 "" H 2450 2600 50  0001 C CNN
+F 3 "" H 2450 2600 50  0001 C CNN
+	1    2450 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE1F5
+P 3250 1400
+F 0 "#PWR?" H 3250 1150 50  0001 C CNN
+F 1 "GND" V 3255 1272 50  0000 R CNN
+F 2 "" H 3250 1400 50  0001 C CNN
+F 3 "" H 3250 1400 50  0001 C CNN
+	1    3250 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2300 3000 2200
+Wire Wire Line
+	2150 2600 2450 2600
+Connection ~ 2450 2600
+Wire Wire Line
+	2450 2600 2750 2600
+Connection ~ 2750 2600
+Wire Wire Line
+	2750 2600 3000 2600
+Text GLabel 2900 2000 1    50   Input ~ 0
+Hbridge_control2
+Text GLabel 2600 1800 1    50   Input ~ 0
+Hbridge_control1
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE203
+P 3450 2400
+F 0 "#PWR?" H 3450 2150 50  0001 C CNN
+F 1 "GND" V 3400 2250 50  0000 R CNN
+F 2 "" H 3450 2400 50  0001 C CNN
+F 3 "" H 3450 2400 50  0001 C CNN
+	1    3450 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1400 4250 1500
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE20A
+P 4550 1400
+F 0 "#PWR?" H 4550 1150 50  0001 C CNN
+F 1 "GND" V 4555 1272 50  0000 R CNN
+F 2 "" H 4550 1400 50  0001 C CNN
+F 3 "" H 4550 1400 50  0001 C CNN
+	1    4550 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE210
+P 5400 2150
+F 0 "#PWR?" H 5400 1900 50  0001 C CNN
+F 1 "GND" V 5405 2022 50  0000 R CNN
+F 2 "" H 5400 2150 50  0001 C CNN
+F 3 "" H 5400 2150 50  0001 C CNN
+	1    5400 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE216
+P 5950 2150
+F 0 "#PWR?" H 5950 1900 50  0001 C CNN
+F 1 "GND" V 5955 2022 50  0000 R CNN
+F 2 "" H 5950 2150 50  0001 C CNN
+F 3 "" H 5950 2150 50  0001 C CNN
+	1    5950 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE21C
+P 8050 2150
+F 0 "#PWR?" H 8050 1900 50  0001 C CNN
+F 1 "GND" V 8055 2022 50  0000 R CNN
+F 2 "" H 8050 2150 50  0001 C CNN
+F 3 "" H 8050 2150 50  0001 C CNN
+	1    8050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE222
+P 8500 2100
+F 0 "#PWR?" H 8500 1850 50  0001 C CNN
+F 1 "GND" V 8505 1972 50  0000 R CNN
+F 2 "" H 8500 2100 50  0001 C CNN
+F 3 "" H 8500 2100 50  0001 C CNN
+	1    8500 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2750 2000 3450 2000
+Wire Wire Line
+	2750 2000 2750 2300
+Wire Wire Line
+	2450 1800 3450 1800
+Wire Wire Line
+	2450 1800 2450 2300
+Wire Wire Line
+	3450 1600 2150 1600
+Wire Wire Line
+	2150 1600 2150 2300
+Wire Wire Line
+	4350 2400 4350 2200
+Wire Wire Line
+	4350 2200 4350 2000
+Connection ~ 4350 2200
+Wire Wire Line
+	4350 2000 4350 1800
+Connection ~ 4350 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE233
+P 4350 2400
+F 0 "#PWR?" H 4350 2150 50  0001 C CNN
+F 1 "GND" V 4300 2250 50  0000 R CNN
+F 2 "" H 4350 2400 50  0001 C CNN
+F 3 "" H 4350 2400 50  0001 C CNN
+	1    4350 2400
+	1    0    0    -1  
+$EndComp
+Connection ~ 4350 2400
+Wire Wire Line
+	4350 1600 4350 1800
+Connection ~ 4350 1800
+Wire Wire Line
+	7150 1700 7150 1600
+Wire Wire Line
+	6750 1700 6750 1600
+Wire Wire Line
+	5400 1850 5400 1700
+Wire Wire Line
+	8500 1800 8500 1700
+Wire Wire Line
+	4850 1450 4850 1700
+Wire Wire Line
+	4900 1900 4900 1550
+Wire Wire Line
+	4850 2100 4850 2650
+Wire Wire Line
+	4850 2650 8700 2650
+Wire Wire Line
+	8700 2650 8700 1450
+Wire Wire Line
+	8800 1550 8800 2750
+Wire Wire Line
+	8800 2750 4800 2750
+Wire Wire Line
+	4800 2750 4800 2300
+Wire Wire Line
+	6350 2000 6750 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE249
+P 6750 2000
+F 0 "#PWR?" H 6750 1750 50  0001 C CNN
+F 1 "GND" V 6755 1872 50  0000 R CNN
+F 2 "" H 6750 2000 50  0001 C CNN
+F 3 "" H 6750 2000 50  0001 C CNN
+	1    6750 2000
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 1550 1    50   Input ~ 0
+Output1
+Text GLabel 7150 1550 1    50   Input ~ 0
+Output2
+$Comp
+L Washway_board_V1-rescue:sn74hc244-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue U?
+U 1 1 5F7EE251
+P 3750 1400
+F 0 "U?" H 3750 2075 50  0000 C CNN
+F 1 "SN74HC244_H-bridge" H 3750 1984 50  0000 C CNN
+F 2 "kustom_footprints:74HC244D" H 3750 1400 50  0000 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74cbt3253" H 3750 1400 50  0001 C CNN
+	1    3750 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 1500 4200 1500
+Wire Wire Line
+	4200 1600 4350 1600
+Wire Wire Line
+	4200 1700 4850 1700
+Wire Wire Line
+	4200 1800 4350 1800
+Wire Wire Line
+	4200 1900 4900 1900
+Wire Wire Line
+	4200 2000 4350 2000
+Wire Wire Line
+	4200 2100 4850 2100
+Wire Wire Line
+	4200 2200 4350 2200
+Wire Wire Line
+	4200 2300 4800 2300
+Wire Wire Line
+	4200 2400 4350 2400
+$Comp
+L Washway_board_V1-rescue:BTS7960-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue U?
+U 1 1 5F7EE261
+P 7900 1350
+F 0 "U?" H 8125 1581 50  0000 C CNN
+F 1 "BTS7960" H 8125 1490 50  0000 C CNN
+F 2 "kustom_footprints:BTS7960" H 7900 1350 50  0001 C CNN
+F 3 "" H 7900 1350 50  0001 C CNN
+	1    7900 1350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Washway_board_V1-rescue:BTS7960-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue U?
+U 1 1 5F7EE267
+P 6100 1350
+F 0 "U?" H 6325 1581 50  0000 C CNN
+F 1 "BTS7960" H 6325 1490 50  0000 C CNN
+F 2 "kustom_footprints:BTS7960" H 6100 1350 50  0001 C CNN
+F 3 "" H 6100 1350 50  0001 C CNN
+	1    6100 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1450 5950 1450
+Wire Wire Line
+	4900 1550 5950 1550
+Wire Wire Line
+	5400 1700 5950 1700
+Connection ~ 6750 2000
+Wire Wire Line
+	6750 2000 7650 2000
+Wire Wire Line
+	8050 1700 8500 1700
+Wire Wire Line
+	8050 1550 8800 1550
+Wire Wire Line
+	8050 1450 8700 1450
+Wire Wire Line
+	7300 1600 7150 1600
+Connection ~ 7150 1600
+Wire Wire Line
+	7150 1600 7150 1550
+Wire Wire Line
+	7300 1700 7150 1700
+Wire Wire Line
+	6750 1600 6700 1600
+Connection ~ 6750 1600
+Wire Wire Line
+	6750 1600 6750 1550
+Wire Wire Line
+	6750 1700 6700 1700
+Wire Wire Line
+	7600 1300 7600 1200
+Wire Wire Line
+	6400 1200 7600 1200
+Connection ~ 7600 1200
+Wire Wire Line
+	7600 1200 8200 1200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7EE281
+P 4250 1400
+F 0 "#PWR?" H 4250 1250 50  0001 C CNN
+F 1 "+5V" H 4265 1573 50  0000 C CNN
+F 2 "" H 4250 1400 50  0001 C CNN
+F 3 "" H 4250 1400 50  0001 C CNN
+	1    4250 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7EE287
+P 2150 1600
+F 0 "#PWR?" H 2150 1450 50  0001 C CNN
+F 1 "+5V" H 2165 1773 50  0000 C CNN
+F 2 "" H 2150 1600 50  0001 C CNN
+F 3 "" H 2150 1600 50  0001 C CNN
+	1    2150 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE28D
+P 3250 2200
+F 0 "#PWR?" H 3250 1950 50  0001 C CNN
+F 1 "GND" V 3255 2072 50  0000 R CNN
+F 2 "" H 3250 2200 50  0001 C CNN
+F 3 "" H 3250 2200 50  0001 C CNN
+	1    3250 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 2200 3250 2200
+Connection ~ 3250 2200
+Wire Wire Line
+	3250 2200 3450 2200
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7EE296
+P 5950 1850
+F 0 "#PWR?" H 5950 1700 50  0001 C CNN
+F 1 "+5V" H 5965 2023 50  0000 C CNN
+F 2 "" H 5950 1850 50  0001 C CNN
+F 3 "" H 5950 1850 50  0001 C CNN
+	1    5950 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F7EE29C
+P 8050 1850
+F 0 "#PWR?" H 8050 1700 50  0001 C CNN
+F 1 "+5V" H 8065 2023 50  0000 C CNN
+F 2 "" H 8050 1850 50  0001 C CNN
+F 3 "" H 8050 1850 50  0001 C CNN
+	1    8050 1850
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VDC #PWR?
+U 1 1 5F7EE2A2
+P 7600 1200
+F 0 "#PWR?" H 7600 1100 50  0001 C CNN
+F 1 "VDC" H 7615 1373 50  0000 C CNN
+F 2 "" H 7600 1200 50  0001 C CNN
+F 3 "" H 7600 1200 50  0001 C CNN
+	1    7600 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5F7EE2A8
+P 6200 1000
+F 0 "C?" H 6315 1046 50  0000 L CNN
+F 1 "330uf" H 6315 955 50  0000 L CNN
+F 2 "kustom_footprints:330uf_CP_Radial_D10.0mm_P5.00mm" H 6238 850 50  0001 C CNN
+F 3 "~" H 6200 1000 50  0001 C CNN
+	1    6200 1000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6400 1000 6350 1000
+$Comp
+L power:GND #PWR?
+U 1 1 5F7EE2AF
+P 6050 1000
+F 0 "#PWR?" H 6050 750 50  0001 C CNN
+F 1 "GND" V 6055 872 50  0000 R CNN
+F 2 "" H 6050 1000 50  0001 C CNN
+F 3 "" H 6050 1000 50  0001 C CNN
+	1    6050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1000 6400 1200
+Connection ~ 2150 1600
+Connection ~ 4250 1400
+Connection ~ 5950 1850
+Connection ~ 6400 1200
+Wire Wire Line
+	6400 1200 6400 1300
+Connection ~ 8050 1850
+$EndSCHEMATC

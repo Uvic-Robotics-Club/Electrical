@@ -1,0 +1,134 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# Device_C
+#
+DEF Device_C C 0 10 N Y 1 F N
+F0 "C" 25 100 50 H V L CNN
+F1 "Device_C" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 20 -80 -30 80 -30 N
+P 2 0 1 20 -80 30 80 30 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Washway_board_V1-rescue_BTS7960-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue
+#
+DEF Washway_board_V1-rescue_BTS7960-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Washway_board_V1-rescue_BTS7960-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -50 -50 500 -550 0 1 0 N
+X GND 1 250 -650 100 U 50 50 1 1 I
+X IN 2 -150 -100 100 R 50 50 1 1 I
+X INH 3 -150 -200 100 R 50 50 1 1 I
+X OUT 4 600 -350 100 L 50 50 1 1 I
+X SR 5 -150 -350 100 R 50 50 1 1 I
+X IS 6 -150 -500 100 R 50 50 1 1 I
+X VCC 7 300 50 100 D 50 50 1 1 I
+X OUT_Tab 8 600 -250 100 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# Washway_board_V1-rescue_sn74hc244-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue
+#
+DEF Washway_board_V1-rescue_sn74hc244-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "Washway_board_V1-rescue_sn74hc244-_autosave-Washway_board_V1-rescue-Washway_board_V1-rescue" 0 0 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -200 -50 350 -1050 0 1 0 N
+X Oe1 1 -300 -100 100 R 50 50 1 1 I
+X GND 10 -300 -1000 100 R 50 50 1 1 I
+X 2A1 11 450 -1000 100 L 50 50 1 1 I
+X 1Y4 12 450 -900 100 L 50 50 1 1 I
+X 2A2 13 450 -800 100 L 50 50 1 1 I
+X 1Y3 14 450 -700 100 L 50 50 1 1 I
+X 2A3 15 450 -600 100 L 50 50 1 1 I
+X 1Y2 16 450 -500 100 L 50 50 1 1 I
+X 2A4 17 450 -400 100 L 50 50 1 1 I
+X 1Y1 18 450 -300 100 L 50 50 1 1 I
+X Oe2 19 450 -200 100 L 50 50 1 1 I
+X 1A1 2 -300 -200 100 R 50 50 1 1 I
+X Vcc 20 450 -100 100 L 50 50 1 1 I
+X 2Y4 3 -300 -300 100 R 50 50 1 1 I
+X 1A2 4 -300 -400 100 R 50 50 1 1 I
+X 2Y3 5 -300 -500 100 R 50 50 1 1 I
+X 1A3 6 -300 -600 100 R 50 50 1 1 I
+X 2Y2 7 -300 -700 100 R 50 50 1 1 I
+X 1A4 8 -300 -800 100 R 50 50 1 1 I
+X 2Y1 9 -300 -900 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# power_+5V
+#
+DEF power_+5V #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5V" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_GND
+#
+DEF power_GND #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -250 50 H I C CNN
+F1 "power_GND" 0 -150 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
+X GND 1 0 0 0 D 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_VDC
+#
+DEF power_VDC #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -100 50 H I C CNN
+F1 "power_VDC" 0 250 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X VDC 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+#End Library

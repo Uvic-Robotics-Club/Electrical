@@ -1,0 +1,29 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model STN1NF10
+#/222365/204185/2.44/4/4/Transistor
+DEF STN1NF10 Q 0 30 Y Y 1 F N
+F0 "Q" 950 300 50 H V L CNN
+F1 "STN1NF10" 950 200 50 H V L CNN
+F2 "SOT230P700X170-4N" 950 100 50 H I L CNN
+F3 "http://www.st.com/web/en/resource/technical/document/datasheet/CD00002688.pdf" 950 0 50 H I L CNN
+F4 "MOSFET N-Channel 100V 1A SOT223 STMicroelectronics STN1NF10 N-channel MOSFET Transistor, 1 A, 100 V, 3-Pin SOT-223" 950 -100 50 H I L CNN "Description"
+F5 "1.7" 950 -200 50 H I L CNN "Height"
+F6 "STMicroelectronics" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "STN1NF10" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "511-STN1NF10" 950 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=511-STN1NF10" 950 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "7612883P" 950 -700 50 H I L CNN "RS Part Number"
+F11 "http://uk.rs-online.com/web/p/products/7612883P" 950 -800 50 H I L CNN "RS Price/Stock"
+F12 "70391241" 950 -900 50 H I L CNN "Allied_Number"
+F13 "http://www.alliedelec.com/stmicroelectronics-stn1nf10/70391241/" 950 -1000 50 H I L CNN "Allied Price/Stock"
+DRAW
+X G 1 0 0 200 R 50 50 0 0 U
+X D 2 0 -100 200 R 50 50 0 0 U
+X S 3 0 -200 200 R 50 50 0 0 U
+X D_(TAB) 4 1100 0 200 L 50 50 0 0 U
+P 5 0 1 6 200 100 900 100 900 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

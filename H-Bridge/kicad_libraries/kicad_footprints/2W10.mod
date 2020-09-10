@@ -1,0 +1,50 @@
+PCBNEW-LibModule-V1  2019-12-19 04:12:43
+# encoding utf-8
+Units mm
+$INDEX
+2W10
+$EndINDEX
+$MODULE 2W10
+Po 0 0 0 15 5dfaf8bb 00000000 ~~
+Li 2W10
+Cd 2W10
+Kw Bridge Rectifier
+Sc 0
+At STD
+AR 
+Op 0 0 0
+T0 -0.332 -0.135 1.27 1.27 0 0.254 N V 21 N "BR**"
+T1 -0.332 -0.135 1.27 1.27 0 0.254 N I 21 N "2W10"
+DC 0 0 4.55 0 0.254 21
+DC 0 0 4.55 0 0.254 24
+DC -3.714 -3.734 -3.764 -3.734 0.254 21
+$PAD
+Po -2.55 -2.55
+Sh "1" C 1.55 1.55 0 0 900
+Dr 1.01 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.55 2.55
+Sh "2" C 1.55 1.55 0 0 900
+Dr 1.01 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.55 2.55
+Sh "3" C 1.55 1.55 0 0 900
+Dr 1.01 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.55 -2.55
+Sh "4" C 1.55 1.55 0 0 900
+Dr 1.01 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+$EndPAD
+$EndMODULE 2W10
+$EndLIBRARY

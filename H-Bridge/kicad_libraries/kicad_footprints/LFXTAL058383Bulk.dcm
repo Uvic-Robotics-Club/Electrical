@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LFXTAL058383Bulk
+D Crystals 16MHz 20pF -40C 85C
+K
+F https://componentsearchengine.com/Datasheets/1/LFXTAL058383Bulk.pdf
+$ENDCMP
+#
+#End Doc Library
